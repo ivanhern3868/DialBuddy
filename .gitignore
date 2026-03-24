@@ -46,3 +46,10 @@ soundinfo.xlsx
 
 # Claude Code local settings (machine-specific, not for repo)
 .claude/settings.local.json
+
+# Local strategy/planning docs (not for repo)
+B2B_STRATEGY.md
+MARKET_ANALYSIS.md
+ROADMAP.md
+DEVELOPMENT.md
+FONTS_SETUP.md
