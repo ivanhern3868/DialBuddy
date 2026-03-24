@@ -1,0 +1,553 @@
+{
+  "common": {
+    "appName": "DialBuddy",
+    "continue": "Continuar",
+    "back": "Voltar",
+    "done": "Pronto",
+    "cancel": "Cancelar",
+    "yes": "Sim",
+    "no": "Não",
+    "ok": "OK",
+    "next": "Próximo",
+    "confirm": "Confirmar",
+    "skip": "Pular",
+    "getStarted": "Começar"
+  },
+
+  "onboarding": {
+    "welcome": {
+      "title": "Bem-vindos, Pais!",
+      "description1": "DialBuddy ensina crianças de 3-4 anos a discar números de telefone através de prática divertida e guiada.",
+      "description2": "Seu filho aprenderá a ligar para você, avós, e eventualmente serviços de emergência quando necessário.",
+      "safetyTitle": "O Que Torna o DialBuddy Seguro:",
+      "feature1": "100% Offline - Sem internet, sem coleta de dados",
+      "feature2": "Controlado pelos Pais - Adicione contatos atrás da porta dos pais",
+      "feature3": "Aprendizado Adaptativo - A dificuldade se ajusta ao seu filho",
+      "feature4": "Sem Chamadas Reais - Ambiente de prática seguro",
+      "privacyPromise": "Promessa de Privacidade:",
+      "privacyText": "Todos os dados permanecem neste dispositivo. Nunca coletamos, compartilhamos ou vendemos as informações da sua família.",
+      "skipSetup": "Pular Configuração (Usar Padrões)"
+    },
+    "country": {
+      "title": "Onde você está localizado?",
+      "subtitle": "Isso nos ajuda a ensinar o número de emergência correto para o seu país."
+    },
+    "language": {
+      "title": "Escolha Seu Idioma",
+      "subtitle": "Selecione o idioma para a interface do app e indicações de voz."
+    },
+    "emergency": {
+      "title": "Confirmar Número de Emergência",
+      "subtitle": "Este é o número de emergência que ensinaremos seu filho a discar.",
+      "warningTitle": "Importante:",
+      "warningText": "DialBuddy NÃO faz chamadas reais. Seu filho praticará discando em um ambiente de simulação seguro. Quando estiver pronto para uma emergência real, saberá exatamente o que discar.",
+      "confirmText": "Confirmo que este é o número de emergência correto para minha localização"
+    },
+    "screenTime": {
+      "cardTitle": "Duração Recomendada da Sessão",
+      "cardBody": "DialBuddy usa sessões de 15 minutos por padrão — a janela de aprendizado ideal para crianças de 3-4 anos.",
+      "source1": "OMS (2019): Não mais de 1 hora de tela por dia para idades 3-4",
+      "source2": "AAP (2016): Limitar a 1 hora/dia de tela para idades 2-5",
+      "source3": "Pesquisa: Sessões de 10-15 min maximizam o aprendizado pré-escolar",
+      "changeTip": "Você pode alterar ou remover este limite a qualquer momento na Zona dos Pais."
+    },
+    "settings": {
+      "title": "Configurações Iniciais",
+      "subtitle": "Escolha como seu filho experimenta o DialBuddy. Você pode mudar isso a qualquer momento na Zona dos Pais.",
+      "soundTitle": "Efeitos Sonoros",
+      "soundDescription": "Toca tons realistas de discagem (sons DTMF) quando botões são pressionados",
+      "voiceTitle": "Treinamento de Voz",
+      "voiceDescription": "Encorajamento falado e dicas ('Muito bem!', 'Tente o 5')",
+      "hapticTitle": "Feedback Háptico",
+      "hapticDescription": "Vibrações suaves quando botões são tocados (ajuda no aprendizado motor)",
+      "recommended": "RECOMENDADO",
+      "tip": "Dica:",
+      "tipText": "Recomendamos manter o som LIGADO para a melhor experiência de aprendizado. Crianças aprendem mais rápido com feedback multi-sensorial (visual + áudio + tátil).",
+      "startButton": "Começar a Usar o DialBuddy"
+    }
+  },
+
+  "home": {
+    "greeting": "Oi! O que você quer fazer?",
+    "practice": "Praticar Discagem",
+    "freeDial": "Discar Livremente",
+    "myContacts": "Meus Contatos",
+    "simonSays": "Simão Diz",
+    "whosCalling": "Quem Está Ligando?",
+    "emergency": "Praticar Emergências",
+    "settings": "Configurações",
+    "themes": "Temas"
+  },
+
+  "practice": {
+    "title": "Vamos Praticar!",
+    "pressNumber": "Aperte {{number}}!",
+    "greatJob": "Muito bem!",
+    "tryAgain": "Ops! Tente de novo!",
+    "needHint": "Precisa de ajuda?",
+    "completed": "Você conseguiu! {{name}} está muito orgulhoso de você!",
+    "callRinging": "{{name}} está atendendo...",
+    "celebrationMessage": "Incrível! Você discou o número todo!"
+  },
+
+  "freeDial": {
+    "title": "Discar Livremente",
+    "subtitle": "Toque nos números e explore!",
+    "call": "Ligar",
+    "clear": "Limpar",
+    "wrongNumber": "Ops! Não conheço esse número!",
+    "tryAgain": "Tente discar alguém da Minha Gente!"
+  },
+
+  "contacts": {
+    "title": "Meus Contatos",
+    "subtitle": "Para quem você quer ligar?",
+    "empty": "Ainda não há contatos! Peça a um adulto para adicionar alguns.",
+    "letsCall": "Vamos ligar para {{name}}!",
+    "addContact": "Adicionar Contato",
+    "tapToAdd": "Toque para adicionar um contato",
+    "slot": "Contato {{number}}",
+    "permissionTitle": "Acessar Contatos",
+    "permissionMessage": "DialBuddy precisa de acesso aos seus contatos para que você possa adicionar pessoas para seu filho praticar ligando.",
+    "permissionDenied": "A permissão de contatos foi negada. Você pode habilitá-la em Configurações.",
+    "selectContact": "Selecionar um Contato"
+  },
+
+  "emergency": {
+    "title": "Número de Emergência",
+    "subtitle": "Aprenda quando e como pedir ajuda",
+
+    "hub": {
+      "title": "Praticar Emergências",
+      "subtitle": "Aprenda o que fazer em uma emergência",
+      "dialButton": "Praticar Ligar para Emergências",
+      "dialDesc": "Aprenda a discar o número de emergência",
+      "whenButton": "Quando Ligar para Emergências",
+      "whenDesc": "Aprenda quais situações são emergências",
+      "safetyNote": "O DialBuddy NÃO faz ligações reais. Este é um ambiente de prática seguro."
+    },
+
+    "when": {
+      "title": "Quando Ligar para Emergências",
+      "instruction": "Qual destas é uma emergência?",
+      "yes": "Ligue por ajuda",
+      "no": "Não é emergência",
+      "callYes": "LIGUE!",
+      "callNo": "Não ligar",
+      "fire": "Há um incêndio",
+      "personHurt": "Alguém está muito machucado",
+      "strangerIn": "Um estranho está dentro",
+      "momFell": "Mamãe caiu e não consegue se levantar",
+      "hungry": "Estou com fome",
+      "sad": "Estou triste",
+      "cantFind": "Não consigo encontrar meu brinquedo",
+      "dogBite": "Um cachorro mordeu alguém",
+      "ateChemical": "Alguém bebeu algo perigoso",
+      "raining": "Está chovendo lá fora"
+    },
+    "intro": "{{number}} é um número MUITO especial. Ele manda ajudantes como policiais, bombeiros e médicos para te ajudar.",
+    "onlyForBig": "Mas só usamos quando algo muito grande e muito sério está acontecendo.",
+    "letsLearn": "Vamos aprender quando ligar e quando NÃO ligar!",
+
+    "scenarios": {
+      "title": "Quando Você Deve Ligar para {{number}}?",
+      "swipeInstructions": "Deslize para direita para SIM, esquerda para NÃO",
+      "correct": "Isso mesmo!",
+      "incorrect": "Vamos pensar sobre isso de novo.",
+      "explanation": "{{explanation}}",
+
+      "listTitle": "Praticar Situações",
+      "listSubtitle": "Escolha uma situação para praticar com um adulto",
+      "tapToPractice": "Toque para praticar →",
+      "scenariosButton": "Praticar Situações",
+      "scenariosDesc": "Pratique situações de emergência passo a passo",
+
+      "fire": {
+        "title": "Há um Incêndio!",
+        "scene": "Você vê fumaça e chamas saindo da cozinha. A casa está pegando fogo!",
+        "action": "Você precisa ligar para o {{number}} agora mesmo!",
+        "script": "Ajuda! Tem um incêndio na minha casa! Meu nome é {{name}}. Eu moro em {{address}}. Por favor venham rápido!"
+      },
+      "unconscious": {
+        "title": "Alguém Não Acorda",
+        "scene": "Mamãe caiu e não acorda. Ela não está se mexendo nem falando!",
+        "action": "Ligue para o {{number}} — ela precisa de ajuda agora mesmo!",
+        "script": "Ajuda! Minha mamãe caiu e não acorda! Meu nome é {{name}}. Eu moro em {{address}}. Por favor venham rápido!"
+      },
+      "poison": {
+        "title": "Alguém Bebeu Algo Perigoso",
+        "scene": "Seu irmãozinho bebeu algo de baixo da pia. Pode machucá-lo!",
+        "action": "Ligue para o {{number}} imediatamente — isso é uma emergência!",
+        "script": "Ajuda! Alguém bebeu algo perigoso! Meu nome é {{name}}. Eu moro em {{address}}. Por favor venham rápido!"
+      },
+      "injury": {
+        "title": "Alguém Está Muito Machucado!",
+        "scene": "Você caiu e se cortou muito fundo. Está sangrando muito!",
+        "action": "Ligue para o {{number}} pedindo ajuda agora mesmo!",
+        "script": "Ajuda! Alguém está machucado e sangrando muito! Meu nome é {{name}}. Eu moro em {{address}}. Por favor mandem ajuda!"
+      },
+      "intruder": {
+        "title": "Tem um Estranho Dentro!",
+        "scene": "Você ouve barulhos estranhos. Um estranho entrou na sua casa e você não o conhece!",
+        "action": "Fique quieto e ligue para o {{number}} agora mesmo!",
+        "script": "Ajuda! Tem um estranho dentro da minha casa! Meu nome é {{name}}. Eu moro em {{address}}. Por favor venham rápido!"
+      }
+    },
+
+    "scenario": {
+      "callButton": "Ligue para o {{number}}!",
+      "dialInstruction": "Disque {{number}} agora!",
+      "dispatcherAnswered": "O ajudante atendeu!",
+      "readAloud": "Leia isso em voz alta para o ajudante:",
+      "sayThis": "DIGA ISSO:",
+      "youSaid": "Você disse:",
+      "holdToSpeak": "Segure para falar",
+      "listening": "Ouvindo...",
+      "iSaidIt": "Eu Já Disse!",
+      "tryAgain": "Tente de novo! Diga as palavras-chave.",
+      "greatJob": "Muito Bem! Continue assim!",
+      "speechError": "O microfone teve um problema. Tente de novo.",
+      "micPermissionDenied": "Permissão de microfone não concedida. Toque abaixo para continuar.",
+      "successTitle": "Você é um Herói!",
+      "successMessage": "Você sabia exatamente o que fazer em uma emergência!",
+      "successSteps": "✅ Você ligou pedindo ajuda\n✅ Você disse o que aconteceu\n✅ Você é muito corajoso!",
+      "tryAnother": "Praticar Outra Situação",
+      "defaultName": "meu nome",
+      "defaultAddress": "meu endereço"
+    },
+
+    "dial": {
+      "title": "Pratique Ligar para {{number}}",
+      "remember": "Lembre-se, estamos apenas praticando!",
+      "greatDialing": "Ótima discagem!",
+      "relationship": "Emergência",
+      "loading": "Preparando..."
+    },
+
+    "dispatcher": {
+      "title": "Falando com o Ajudante",
+      "doNotHangUp": "NÃO desligue!",
+      "connected": "Conectado",
+      "goodJob": "Muito bem por me dizer isso!",
+      "yourTurn": "Sua vez de responder"
+    },
+
+    "silentCall": {
+      "title": "E Se Você Não Puder Falar?",
+      "intro": "Às vezes você pode precisar ligar para {{number}} mas não pode falar porque precisa ficar bem quieto.",
+      "itsOk": "Tudo bem! Apenas ligue, e NÃO desligue.",
+      "helpersKnow": "Os ajudantes às vezes podem descobrir onde você está só pela sua ligação.",
+      "stayOnLine": "Mesmo que você não possa dizer nada, ficar no telefone está ajudando.",
+      "secretAgent": "Você é como um agente secreto - muito quieto e muito corajoso!",
+      "neverHangUp": "NUNCA desligue. Mesmo que você não possa falar."
+    },
+
+    "afterCall": {
+      "title": "O Que Fazer Depois",
+      "stayOnPhone": "Fique no telefone! Não desligue.",
+      "helpIsComing": "A ajuda está vindo!",
+      "youDidGreat": "Você fez um trabalho INCRÍVEL!"
+    },
+
+    "quiz": {
+      "title": "Pergunta Rápida!",
+      "remember": "Você lembra?",
+      "correct": "Sim! Você lembrou!",
+      "tryAgain": "Vamos praticar isso em breve."
+    },
+
+    "badge": {
+      "emergencyStar": "Estrela de Emergência",
+      "earned": "Você ganhou a Estrela de Emergência!",
+      "description": "Você sabe quando pedir ajuda e o que dizer!"
+    }
+  },
+
+  "simonSays": {
+    "title": "Simão Diz",
+    "listen": "Escute com atenção!",
+    "yourTurn": "Sua vez!",
+    "correct": "Isso mesmo!",
+    "tryAgain": "Vamos ouvir de novo!",
+    "levelComplete": "Incrível! Vamos tentar um mais longo!"
+  },
+
+  "whosCalling": {
+    "title": "Quem Está Ligando?",
+    "subtitle": "Você consegue discar de memória?",
+    "tryToDial": "Tente discar o número de {{name}}!",
+    "perfect": "Memória perfeita!",
+    "great": "Ótima memória!",
+    "good": "Boa tentativa!"
+  },
+
+  "parentZone": {
+    "title": "Zona dos Pais",
+    "autoLock": "Bloqueio automático em 5 min",
+
+    "gate": {
+      "verificationTitle": "Verificação dos Pais",
+      "instructions": "Para acessar as configurações dos pais, coloque dois dedos na tela abaixo e mantenha por 3 segundos.",
+      "holdMessage": "Mantenha por 3 segundos...",
+      "addFinger": "Adicione outro dedo",
+      "touchWithTwo": "Toque com dois dedos",
+      "coppaNote": "Este portão impede que crianças acessem configurações de adultos. Obrigatório para conformidade com COPPA.",
+      "instruction": "Mantenha pressionados ambos os círculos por 3 segundos",
+      "unlocked": "Bem-vindo!"
+    },
+
+    "sections": {
+      "settingsPreferences": "Configurações e Preferências",
+      "contactsProfiles": "Contatos e Perfis",
+      "informationProgress": "Informação e Progresso"
+    },
+
+    "appSettings": {
+      "title": "Configurações do Aplicativo",
+      "description": "Efeitos sonoros, indicações de voz, vibração e mais",
+      "soundEffects": "Efeitos Sonoros",
+      "soundEffectsDesc": "Tocar tons DTMF ao discar (sons realistas de botões de telefone)",
+      "voicePrompts": "Indicações de Voz",
+      "voicePromptsDesc": "Instruções faladas durante as sessões de prática (Texto para Fala)",
+      "vibration": "Vibração",
+      "vibrationDesc": "Feedback háptico ao pressionar os botões do discador",
+      "voiceRecognition": "Reconhecimento de Voz",
+      "voiceRecognitionDesc": "Permitir que as crianças falem números de telefone em vez de discar (recurso avançado)",
+      "autoDifficulty": "Ajustar Dificuldade Automaticamente",
+      "autoDifficultyDesc": "Aumentar automaticamente o nível de dificuldade conforme a criança melhora",
+      "changesTakeEffect": "As alterações entram em vigor imediatamente. As configurações são salvas automaticamente.",
+      "sessionLength": "Limite Diário de Sessão",
+      "sessionLengthDesc": "Solicitar uma pausa após este número de minutos de prática.",
+      "sessionLengthUnlimited": "Sem limite"
+    },
+
+    "learningPreferences": {
+      "title": "Preferências de Aprendizado",
+      "description": "Nível de dificuldade e opções de assistência de aprendizado",
+      "difficultyLevel": "Nível de Dificuldade",
+      "chooseGuidance": "Escolha quanta orientação seu filho recebe durante as sessões de prática.",
+      "easy": "Fácil",
+      "easyDesc": "Orientação completa: Todos os dígitos destacados, dicas visuais mostradas. Melhor para iniciantes.",
+      "medium": "Médio",
+      "mediumDesc": "Orientação parcial: Apenas o dígito atual destacado. Para crianças que conhecem o básico.",
+      "hard": "Difícil",
+      "hardDesc": "Orientação mínima: Sem destaques, a criança lembra de forma independente. Para discadores confiantes.",
+      "autoTip": "Dica: Ative \"Ajustar Dificuldade Automaticamente\" nas Configurações do Aplicativo para aumentar automaticamente a dificuldade conforme seu filho melhora."
+    },
+
+    "regionalSettings": {
+      "title": "Configurações Regionais",
+      "description": "País, idioma e número de emergência",
+      "country": "País",
+      "countryDesc": "Escolha seu país para definir o formato de número de telefone correto e o número de emergência.",
+      "emergencyNumber": "Número de Emergência",
+      "emergencyDesc": "Este é o número de emergência que seu filho praticará discar para o país selecionado.",
+      "language": "Idioma",
+      "languageDesc": "Escolha o idioma para indicações de voz e interface do aplicativo.",
+      "autoUpdate": "Nota: Alterar seu país atualizará automaticamente o formato de número de telefone para todos os contatos salvos."
+    },
+
+    "navigation": {
+      "myContacts": "Meus Contatos",
+      "myContactsDesc": "Adicionar, editar ou remover números de telefone",
+      "childProfiles": "Perfis de Crianças",
+      "childProfilesDesc": "Gerenciar perfis e trocar criança ativa",
+      "emergencyInfo": "Informações de Emergência",
+      "emergencyInfoDesc": "Endereço residencial e ponto de encontro em caso de incêndio",
+      "progressReports": "Relatórios de Progresso",
+      "progressReportsDesc": "Ver progresso de aprendizado e níveis de domínio"
+    },
+
+    "footer": {
+      "version": "DialBuddy v1.0.0",
+      "compliance": "Compatível com COPPA • Sem Coleta de Dados • 100% Offline"
+    },
+
+    "dashboard": {
+      "title": "Painel",
+      "progress": "Progresso",
+      "mastery": "Domínio",
+      "streak": "Sequência de Dias",
+      "totalPractice": "Sessões de Prática"
+    },
+
+    "contacts": {
+      "title": "Gerenciar Contatos",
+      "add": "Adicionar Contato",
+      "edit": "Editar Contato",
+      "delete": "Excluir Contato",
+      "name": "Nome",
+      "relationship": "Relação",
+      "phoneNumber": "Número de Telefone",
+      "photo": "Foto",
+      "validation": {
+        "invalidNumber": "Este não parece um número de telefone válido",
+        "required": "Este campo é obrigatório"
+      }
+    },
+
+    "settings": {
+      "title": "Configurações",
+      "country": "País/Região",
+      "language": "Idioma",
+      "difficulty": "Dificuldade",
+      "autoProgress": "Auto-Progressão de Dificuldade",
+      "sound": "Efeitos Sonoros",
+      "voice": "Indicações de Voz",
+      "vibration": "Vibração",
+      "sessionLength": "Duração da Sessão"
+    },
+
+    "emergencyInfo": {
+      "title": "Info de Emergência",
+      "whyThisMatters": "Esta informação ajuda seu filho a saber o que dizer ao ligar para pedir ajuda.",
+      "streetAddress": "Endereço",
+      "streetAddressHint": "O endereço da sua casa (obrigatório)",
+      "streetAddressPlaceholder": "Rua Principal, 123",
+      "addressRequired": "O endereço é obrigatório",
+      "cityState": "Cidade / Estado",
+      "cityStateHint": "Ajuda os despachantes a localizá-lo mais rápido",
+      "cityStatePlaceholder": "São Paulo, SP",
+      "fireMeetingSpot": "Ponto de Encontro em Incêndio",
+      "fireMeetingSpotHint": "Onde sua família se reúne do lado de fora se houver incêndio",
+      "fireMeetingSpotPlaceholder": "A árvore grande na frente da casa",
+      "otherInfo": "Outras Informações Importantes",
+      "otherInfoHint": "Alergias, condições médicas ou contato do segundo responsável",
+      "otherInfoPlaceholder": "Ex: Celular do pai: 555-0100, alergia a amendoim",
+      "privacyNote": "🔒 Armazenado apenas neste dispositivo. Nunca compartilhado ou enviado."
+    },
+
+    "profile": {
+      "title": "Perfil da Criança",
+      "childName": "Nome da Criança",
+      "childNamePlaceholder": "Ex: Emma",
+      "nameRequired": "Por favor insira o nome da criança",
+      "age": "Idade",
+      "chooseAvatar": "Escolher Avatar",
+      "save": "Salvar Perfil",
+      "noProfile": "Nenhum perfil configurado ainda",
+      "activeChild": "Criança ativa"
+    },
+
+    "progressReport": {
+      "title": "Relatório de Progresso",
+      "noProgress": "Nenhuma sessão de prática ainda",
+      "noProgressSub": "Comece a praticar para ver o progresso aqui",
+      "mastery": "Domínio",
+      "sessions": "Sessões",
+      "streak": "Sequência",
+      "lastPracticed": "Última prática",
+      "today": "Hoje",
+      "yesterday": "Ontem",
+      "daysAgo": "Há {{count}} dias",
+      "never": "Ainda não praticado",
+      "beginner": "Iniciante",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado"
+    },
+
+    "emergency": {
+      "title": "Configurações de Emergência",
+      "enabled": "Módulo de Emergência",
+      "drillFrequency": "Frequência de Simulações",
+      "quizFrequency": "Frequência de Mini-Quiz",
+      "meetingSpot": "Ponto de Encontro em Incêndio",
+      "recordVoice": "Gravar Voz do Despachante",
+      "progress": "Progresso de Emergência"
+    }
+  },
+
+  "numbers": {
+    "0": "zero",
+    "1": "um",
+    "2": "dois",
+    "3": "três",
+    "4": "quatro",
+    "5": "cinco",
+    "6": "seis",
+    "7": "sete",
+    "8": "oito",
+    "9": "nove"
+  },
+
+  "practiceMode": {
+    "selectScreen": {
+      "title": "Praticar Ligações",
+      "loading": "Carregando...",
+      "emptyTitle": "Ainda Não Há Contatos",
+      "emptyMessage": "Peça a um adulto para adicionar contatos na Zona dos Pais!",
+      "instructionTitle": "Para quem você quer ligar?",
+      "instructionSubtitle": "Toque em uma pessoa para praticar o número dela!",
+      "emergencyBadge": "EMERGÊNCIA",
+      "streak": "sequência",
+      "practiceButton": "Praticar Ligar para {{name}} →",
+      "mastery": {
+        "excellent": "Muito bem!",
+        "good": "Continue praticando!",
+        "started": "Acabou de começar",
+        "notPracticed": "Ainda não praticado"
+      },
+      "difficulty": {
+        "beginner": "Iniciante",
+        "intermediate": "Intermediário",
+        "advanced": "Avançado"
+      }
+    },
+    "practiceScreen": {
+      "loading": "Carregando...",
+      "chunkCelebration": {
+        "message1": "Muito bem! 🌟",
+        "message2": "Você conseguiu! ⭐",
+        "message3": "Incrível! 🎯",
+        "message4": "Perfeito! 💫",
+        "message5": "Muito bom! 🏆",
+        "message6": "Super! 🌈"
+      },
+      "finalCelebration": {
+        "message1": "Você é incrível! 🎉",
+        "message2": "Você conseguiu tudo! 🥳",
+        "message3": "Super discador! 🌟",
+        "message4": "Campeão! 🏆"
+      },
+      "transition": {
+        "message1": "Agora disque o número completo! 📞",
+        "message2": "Mais uma vez - tudo junto! 🎯",
+        "message3": "Você aprendeu! Agora me mostre! 💪",
+        "message4": "Rodada final - número completo! 🏆"
+      },
+      "header": {
+        "callName": "Ligar para {{name}}"
+      },
+      "phaseBadge": {
+        "finalRound": "🎯 Rodada Final",
+        "easy": "⭐ Fácil",
+        "medium": "⭐⭐ Médio",
+        "hard": "⭐⭐⭐ Difícil"
+      },
+      "instructions": {
+        "finalRound": "🎯 Rodada Final - Disque o número completo!",
+        "memory": "Disque de memória!",
+        "chunk": "Grupo {{current}} de {{total}}"
+      },
+      "dialedDisplay": {
+        "fullNumberPrompt": "Disque o número completo!",
+        "chunkPrompt": "Toque no número destacado para começar!"
+      },
+      "celebration": {
+        "chunkProgress": "{{current}} de {{total}} prontos!",
+        "youDialed": "Você discou o número de {{name}}!",
+        "starsEarned": "Estrelas ganhas:",
+        "totalStars": "{{earned}} / {{max}} estrelas!",
+        "mastery": "Domínio: {{level}}%",
+        "streakMessage": "🔥 {{count}} seguidos!",
+        "chunksLearned": "Todos os grupos aprendidos!",
+        "getReady": "Se prepare..."
+      },
+      "ringing": {
+        "calling": "Ligando...",
+        "ringing": "Rim rim! 📞",
+        "answerMessage": "Oi! Parabéns por discar meu número! Você conseguiu!"
+      }
+    }
+  }
+}

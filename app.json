@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "DialBuddy - Learn to Call",
+    "slug": "dialbuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dialbuddy",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4FC3F7"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dialbuddy.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "DialBuddy uses the camera to take contact photos in the parent settings area.",
+        "NSMicrophoneUsageDescription": "DialBuddy uses the microphone to record custom voice prompts and for voice recognition practice.",
+        "NSPhotoLibraryUsageDescription": "DialBuddy accesses photos so you can set contact pictures.",
+        "NSUserTrackingUsageDescription": "DialBuddy does not track you."
+      }
+    },
+    "android": {
+      "package": "com.dialbuddy.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "predictiveBackGestureEnabled": false,
+      "navigationBar": {
+        "visible": "sticky",
+        "backgroundColor": "#F5F5F5"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      "expo-splash-screen",
+      "expo-sqlite",
+      "expo-localization",
+      "expo-font",
+      "expo-speech-recognition"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8a21dbe8-9f90-40b8-9cf9-3321a5b919de"
+      }
+    }
+  }
+}

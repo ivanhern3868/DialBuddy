@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Business Purpose: Placeholder mascot character for DialBuddy -->
+  <!-- This is a simple, friendly phone character that will be replaced with Lottie animations later -->
+  <!-- Design: Rounded, friendly shapes appropriate for ages 3-4 -->
+
+  <!-- Phone Body (main rectangle with rounded corners) -->
+  <rect x="50" y="40" width="100" height="140" rx="15" fill="#4FC3F7" stroke="#37474F" stroke-width="3"/>
+
+  <!-- Screen (inner rectangle) -->
+  <rect x="60" y="55" width="80" height="60" rx="8" fill="#E3F2FD" stroke="#37474F" stroke-width="2"/>
+
+  <!-- Eyes (friendly circles) -->
+  <circle cx="80" cy="75" r="8" fill="#37474F"/>
+  <circle cx="120" cy="75" r="8" fill="#37474F"/>
+
+  <!-- Eye highlights (makes eyes look alive) -->
+  <circle cx="82" cy="73" r="3" fill="white"/>
+  <circle cx="122" cy="73" r="3" fill="white"/>
+
+  <!-- Smile (arc path) -->
+  <path d="M 75 95 Q 100 105 125 95" stroke="#37474F" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Home Button (circle at bottom of screen) -->
+  <circle cx="100" cy="130" r="8" fill="#FFD54F" stroke="#37474F" stroke-width="2"/>
+
+  <!-- Number Pad Buttons (3x4 grid below screen) -->
+  <circle cx="70" cy="145" r="4" fill="#F5F5F5"/>
+  <circle cx="100" cy="145" r="4" fill="#F5F5F5"/>
+  <circle cx="130" cy="145" r="4" fill="#F5F5F5"/>
+
+  <circle cx="70" cy="160" r="4" fill="#F5F5F5"/>
+  <circle cx="100" cy="160" r="4" fill="#F5F5F5"/>
+  <circle cx="130" cy="160" r="4" fill="#F5F5F5"/>
+
+  <!-- Arms (simple lines with rounded ends) -->
+  <path d="M 50 90 L 30 100" stroke="#4FC3F7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 150 90 L 170 100" stroke="#4FC3F7" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Hands (small circles) -->
+  <circle cx="30" cy="100" r="6" fill="#4FC3F7" stroke="#37474F" stroke-width="2"/>
+  <circle cx="170" cy="100" r="6" fill="#4FC3F7" stroke="#37474F" stroke-width="2"/>
+
+  <!-- Wave effect on right hand (can be animated later) -->
+  <path d="M 175 95 Q 180 90 185 95" stroke="#FFD54F" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

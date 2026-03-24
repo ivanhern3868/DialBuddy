@@ -1,0 +1,553 @@
+{
+  "common": {
+    "appName": "DialBuddy",
+    "continue": "Continue",
+    "back": "Back",
+    "done": "Done",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "next": "Next",
+    "confirm": "Confirm",
+    "skip": "Skip",
+    "getStarted": "Get Started"
+  },
+
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome, Parents!",
+      "description1": "DialBuddy teaches children ages 3-4 how to dial phone numbers through fun, guided practice.",
+      "description2": "Your child will learn to call you, grandparents, and eventually emergency services when needed.",
+      "safetyTitle": "What Makes DialBuddy Safe:",
+      "feature1": "100% Offline - No internet, no data collection",
+      "feature2": "Parent-Controlled - Add contacts behind parent gate",
+      "feature3": "Adaptive Learning - Difficulty adjusts to your child",
+      "feature4": "No Actual Calls - Safe practice environment",
+      "privacyPromise": "Privacy Promise:",
+      "privacyText": "All data stays on this device. We never collect, share, or sell your family's information.",
+      "skipSetup": "Skip Setup (Use Defaults)"
+    },
+    "country": {
+      "title": "Where are you located?",
+      "subtitle": "This helps us teach the correct emergency number for your country."
+    },
+    "language": {
+      "title": "Choose Your Language",
+      "subtitle": "Select the language for the app interface and voice prompts."
+    },
+    "emergency": {
+      "title": "Confirm Emergency Number",
+      "subtitle": "This is the emergency number we'll teach your child to dial.",
+      "warningTitle": "Important:",
+      "warningText": "DialBuddy does NOT make real calls. Your child will practice dialing in a safe simulation environment. When they're ready for a real emergency, they'll know exactly what to dial.",
+      "confirmText": "I confirm this is the correct emergency number for my location"
+    },
+    "screenTime": {
+      "cardTitle": "Recommended Session Length",
+      "cardBody": "DialBuddy defaults to 15-minute daily sessions — the optimal learning window for toddlers ages 3-4.",
+      "source1": "WHO (2019): No more than 1 hour of screen time per day for ages 3-4",
+      "source2": "AAP (2016): Limit screen time to 1 hour/day for ages 2-5",
+      "source3": "Research: 10-15 min focused sessions maximize learning for preschoolers",
+      "changeTip": "You can change or remove this limit anytime in the Parent Zone."
+    },
+    "settings": {
+      "title": "Initial Settings",
+      "subtitle": "Choose how your child experiences DialBuddy. You can change these anytime in the Parent Zone.",
+      "soundTitle": "Sound Effects",
+      "soundDescription": "Play realistic phone dial tones (DTMF sounds) when buttons are pressed",
+      "voiceTitle": "Voice Coaching",
+      "voiceDescription": "Spoken encouragement and hints ('Great job!', 'Try the 5')",
+      "hapticTitle": "Haptic Feedback",
+      "hapticDescription": "Gentle vibrations when buttons are tapped (helps with motor skill learning)",
+      "recommended": "RECOMMENDED",
+      "tip": "Tip:",
+      "tipText": "We recommend keeping sound ON for the best learning experience. Children learn faster with multi-sensory feedback (visual + audio + touch).",
+      "startButton": "Start Using DialBuddy"
+    }
+  },
+
+  "home": {
+    "greeting": "Hi! What do you want to do?",
+    "practice": "Practice Dialing",
+    "freeDial": "Free Dial",
+    "myContacts": "My Contacts",
+    "simonSays": "Simon Says",
+    "whosCalling": "Who's Calling?",
+    "emergency": "Practice Emergencies",
+    "settings": "Settings",
+    "themes": "Themes"
+  },
+
+  "practice": {
+    "title": "Let's Practice!",
+    "pressNumber": "Press {{number}}!",
+    "greatJob": "Great job!",
+    "tryAgain": "Oops! Try again!",
+    "needHint": "Need a hint?",
+    "completed": "You did it! {{name}} is so proud of you!",
+    "callRinging": "{{name}} is answering...",
+    "celebrationMessage": "Amazing! You dialed the whole number!"
+  },
+
+  "freeDial": {
+    "title": "Free Dial",
+    "subtitle": "Tap numbers and explore!",
+    "call": "Call",
+    "clear": "Clear",
+    "wrongNumber": "Oops! That's not a number I know!",
+    "tryAgain": "Try dialing someone from My People!"
+  },
+
+  "contacts": {
+    "title": "My Contacts",
+    "subtitle": "Who do you want to call?",
+    "empty": "No contacts yet! Ask a grown-up to add some.",
+    "letsCall": "Let's call {{name}}!",
+    "addContact": "Add Contact",
+    "tapToAdd": "Tap to add a contact",
+    "slot": "Contact {{number}}",
+    "permissionTitle": "Access Contacts",
+    "permissionMessage": "DialBuddy needs access to your contacts so you can add people for your child to practice calling.",
+    "permissionDenied": "Contact permission was denied. You can enable it in Settings.",
+    "selectContact": "Select a Contact"
+  },
+
+  "emergency": {
+    "title": "Emergency Number",
+    "subtitle": "Learn when and how to call for help",
+
+    "hub": {
+      "title": "Practice Emergencies",
+      "subtitle": "Learn what to do in an emergency",
+      "dialButton": "Practice Calling for Help",
+      "dialDesc": "Learn to dial the emergency number",
+      "whenButton": "When to Call for Help",
+      "whenDesc": "Learn which situations are emergencies",
+      "safetyNote": "DialBuddy does NOT make real calls. This is a safe practice environment."
+    },
+
+    "when": {
+      "title": "When to Call for Help",
+      "instruction": "Which of these is an emergency?",
+      "yes": "Call for help",
+      "no": "Not an emergency",
+      "callYes": "CALL!",
+      "callNo": "No call",
+      "fire": "There is a fire",
+      "personHurt": "Someone is badly hurt",
+      "strangerIn": "A stranger is inside",
+      "momFell": "Mom fell and can't get up",
+      "hungry": "I am hungry",
+      "sad": "I feel sad",
+      "cantFind": "I can't find my toy",
+      "dogBite": "A dog bit someone",
+      "ateChemical": "Someone drank something dangerous",
+      "raining": "It is raining outside"
+    },
+    "intro": "{{number}} is a VERY special number. It sends helpers like police, firefighters, and doctors to come help you.",
+    "onlyForBig": "But we only use it when something really big and really scary is happening.",
+    "letsLearn": "Let's learn when to call and when NOT to call!",
+
+    "scenarios": {
+      "title": "When Should You Call {{number}}?",
+      "swipeInstructions": "Swipe right for YES, left for NO",
+      "correct": "That's right!",
+      "incorrect": "Let's think about this one again.",
+      "explanation": "{{explanation}}",
+
+      "listTitle": "Practice Scenarios",
+      "listSubtitle": "Pick a situation to practice with a grown-up",
+      "tapToPractice": "Tap to practice →",
+      "scenariosButton": "Practice Scenarios",
+      "scenariosDesc": "Walk through emergency situations step by step",
+
+      "fire": {
+        "title": "There's a Fire!",
+        "scene": "You see smoke and flames coming from the kitchen. The house is on fire!",
+        "action": "You need to call {{number}} right now!",
+        "script": "Help! There is a fire at my house! My name is {{name}}. I live at {{address}}. Please come fast!"
+      },
+      "unconscious": {
+        "title": "Someone Won't Wake Up",
+        "scene": "Mommy fell down and won't wake up. She is not moving or talking!",
+        "action": "Call {{number}} — she needs a helper right now!",
+        "script": "Help! My mom fell down and she won't wake up! My name is {{name}}. I live at {{address}}. Please hurry!"
+      },
+      "poison": {
+        "title": "Someone Drank Something Dangerous",
+        "scene": "Your little brother drank something from under the sink. It could hurt him!",
+        "action": "Call {{number}} right away — this is an emergency!",
+        "script": "Help! Someone drank something dangerous! My name is {{name}}. I live at {{address}}. Please come fast!"
+      },
+      "injury": {
+        "title": "Someone Is Badly Hurt!",
+        "scene": "You fell and cut yourself very badly. There is a lot of blood!",
+        "action": "Call {{number}} for help right now!",
+        "script": "Help! Someone is hurt and bleeding a lot! My name is {{name}}. I live at {{address}}. Please send help!"
+      },
+      "intruder": {
+        "title": "A Stranger Is Inside!",
+        "scene": "You hear strange noises. A stranger came into your house and you don't know them!",
+        "action": "Stay quiet and call {{number}} right now!",
+        "script": "Help! There is a stranger inside my house! My name is {{name}}. I live at {{address}}. Please come fast!"
+      }
+    },
+
+    "scenario": {
+      "callButton": "Call {{number}}!",
+      "dialInstruction": "Dial {{number}} now!",
+      "dispatcherAnswered": "The helper answered!",
+      "readAloud": "Read this out loud to the helper:",
+      "sayThis": "SAY THIS:",
+      "youSaid": "You said:",
+      "holdToSpeak": "Hold to speak",
+      "listening": "Listening...",
+      "iSaidIt": "I Said It!",
+      "tryAgain": "Try again! Say the key words.",
+      "greatJob": "Great Job! Keep going!",
+      "speechError": "Microphone had a problem. Try again.",
+      "micPermissionDenied": "Microphone permission not granted. Tap below to continue.",
+      "successTitle": "You're a Hero!",
+      "successMessage": "You knew exactly what to do in an emergency!",
+      "successSteps": "✅ You called for help\n✅ You told them what happened\n✅ You are so brave!",
+      "tryAnother": "Try Another Scenario",
+      "defaultName": "my name",
+      "defaultAddress": "my address"
+    },
+
+    "dial": {
+      "title": "Practice Calling {{number}}",
+      "remember": "Remember, we're just pretending!",
+      "greatDialing": "Great dialing!",
+      "relationship": "Emergency",
+      "loading": "Getting ready..."
+    },
+
+    "dispatcher": {
+      "title": "Talking to the Helper",
+      "doNotHangUp": "Do NOT hang up!",
+      "connected": "Connected",
+      "goodJob": "Good job telling me that!",
+      "yourTurn": "Your turn to answer"
+    },
+
+    "silentCall": {
+      "title": "What If You Can't Talk?",
+      "intro": "Sometimes you might need to call {{number}} but you can't talk because you need to be very quiet.",
+      "itsOk": "That's OK! Just call, and DON'T hang up.",
+      "helpersKnow": "The helpers can sometimes figure out where you are just from your call.",
+      "stayOnLine": "Even if you can't say anything, staying on the phone is helping.",
+      "secretAgent": "You're like a secret agent - very quiet and very brave!",
+      "neverHangUp": "NEVER hang up. Even if you can't talk."
+    },
+
+    "afterCall": {
+      "title": "What to Do Next",
+      "stayOnPhone": "Stay on the phone! Don't hang up.",
+      "helpIsComing": "Helpers are coming!",
+      "youDidGreat": "You did an AMAZING job!"
+    },
+
+    "quiz": {
+      "title": "Quick Question!",
+      "remember": "Do you remember?",
+      "correct": "Yes! You remembered!",
+      "tryAgain": "Let's practice that one again soon."
+    },
+
+    "badge": {
+      "emergencyStar": "Emergency Star",
+      "earned": "You earned the Emergency Star!",
+      "description": "You know when to call for help and what to say!"
+    }
+  },
+
+  "simonSays": {
+    "title": "Simon Says",
+    "listen": "Listen carefully!",
+    "yourTurn": "Your turn!",
+    "correct": "That's right!",
+    "tryAgain": "Let's hear it again!",
+    "levelComplete": "Amazing! Let's try a longer one!"
+  },
+
+  "whosCalling": {
+    "title": "Who's Calling?",
+    "subtitle": "Can you dial from memory?",
+    "tryToDial": "Try to dial {{name}}'s number!",
+    "perfect": "Perfect recall!",
+    "great": "Great memory!",
+    "good": "Good try!"
+  },
+
+  "parentZone": {
+    "title": "Parent Zone",
+    "autoLock": "Auto-locks in 5 min",
+
+    "gate": {
+      "verificationTitle": "Parent Verification",
+      "instructions": "To access parent settings, place two fingers on the screen below and hold for 3 seconds.",
+      "holdMessage": "Hold for 3 seconds...",
+      "addFinger": "Add another finger",
+      "touchWithTwo": "Touch with two fingers",
+      "coppaNote": "This gate prevents children from accessing adult settings. Required for COPPA compliance.",
+      "instruction": "Press and hold both circles for 3 seconds",
+      "unlocked": "Welcome!"
+    },
+
+    "sections": {
+      "settingsPreferences": "Settings & Preferences",
+      "contactsProfiles": "Contacts & Profiles",
+      "informationProgress": "Information & Progress"
+    },
+
+    "appSettings": {
+      "title": "App Settings",
+      "description": "Sound effects, voice prompts, vibration, and more",
+      "soundEffects": "Sound Effects",
+      "soundEffectsDesc": "Play DTMF tones when dialing (realistic phone button sounds)",
+      "voicePrompts": "Voice Prompts",
+      "voicePromptsDesc": "Spoken instructions during practice sessions (Text-to-Speech)",
+      "vibration": "Vibration",
+      "vibrationDesc": "Haptic feedback when pressing dialer buttons",
+      "voiceRecognition": "Voice Recognition",
+      "voiceRecognitionDesc": "Allow children to speak phone numbers instead of dialing (advanced feature)",
+      "autoDifficulty": "Auto-Adjust Difficulty",
+      "autoDifficultyDesc": "Automatically increase difficulty level as child improves",
+      "changesTakeEffect": "Changes take effect immediately. Settings are saved automatically.",
+      "sessionLength": "Daily Session Limit",
+      "sessionLengthDesc": "Prompt a break after this many minutes of practice.",
+      "sessionLengthUnlimited": "Off"
+    },
+
+    "learningPreferences": {
+      "title": "Learning Preferences",
+      "description": "Difficulty level and learning assistance options",
+      "difficultyLevel": "Difficulty Level",
+      "chooseGuidance": "Choose how much guidance your child receives during practice sessions.",
+      "easy": "Easy",
+      "easyDesc": "Full guidance: All digits highlighted, visual hints shown. Best for beginners.",
+      "medium": "Medium",
+      "mediumDesc": "Partial guidance: Only current digit highlighted. For children who know the basics.",
+      "hard": "Hard",
+      "hardDesc": "Minimal guidance: No highlights, child recalls independently. For confident dialers.",
+      "autoTip": "Tip: Enable \"Auto-Adjust Difficulty\" in App Settings to automatically increase difficulty as your child improves."
+    },
+
+    "regionalSettings": {
+      "title": "Regional Settings",
+      "description": "Country, language, and emergency number",
+      "country": "Country",
+      "countryDesc": "Choose your country to set the correct phone number format and emergency number.",
+      "emergencyNumber": "Emergency Number",
+      "emergencyDesc": "This is the emergency number your child will practice dialing for your selected country.",
+      "language": "Language",
+      "languageDesc": "Choose the language for voice prompts and app interface.",
+      "autoUpdate": "Note: Changing your country will automatically update the phone number format for all saved contacts."
+    },
+
+    "navigation": {
+      "myContacts": "My Contacts",
+      "myContactsDesc": "Add, edit, or remove phone numbers",
+      "childProfiles": "Child Profiles",
+      "childProfilesDesc": "Manage profiles and switch active child",
+      "emergencyInfo": "Emergency Info",
+      "emergencyInfoDesc": "Home address and fire meeting spot",
+      "progressReports": "Progress Reports",
+      "progressReportsDesc": "View learning progress and mastery levels"
+    },
+
+    "footer": {
+      "version": "DialBuddy v1.0.0",
+      "compliance": "COPPA Compliant • No Data Collection • 100% Offline"
+    },
+
+    "dashboard": {
+      "title": "Dashboard",
+      "progress": "Progress",
+      "mastery": "Mastery",
+      "streak": "Day Streak",
+      "totalPractice": "Practice Sessions"
+    },
+
+    "contacts": {
+      "title": "Manage Contacts",
+      "add": "Add Contact",
+      "edit": "Edit Contact",
+      "delete": "Delete Contact",
+      "name": "Name",
+      "relationship": "Relationship",
+      "phoneNumber": "Phone Number",
+      "photo": "Photo",
+      "validation": {
+        "invalidNumber": "This doesn't look like a valid phone number",
+        "required": "This field is required"
+      }
+    },
+
+    "settings": {
+      "title": "Settings",
+      "country": "Country/Region",
+      "language": "Language",
+      "difficulty": "Difficulty",
+      "autoProgress": "Auto-Progress Difficulty",
+      "sound": "Sound Effects",
+      "voice": "Voice Prompts",
+      "vibration": "Vibration",
+      "sessionLength": "Session Length"
+    },
+
+    "emergencyInfo": {
+      "title": "Emergency Info",
+      "whyThisMatters": "This information helps your child know what to say when calling for help. In Phase 2, it will be used in our dispatcher practice simulation.",
+      "streetAddress": "Street Address",
+      "streetAddressHint": "The street address of your home (required)",
+      "streetAddressPlaceholder": "123 Main Street",
+      "addressRequired": "Street address is required",
+      "cityState": "City / State",
+      "cityStateHint": "Helps dispatchers locate you faster",
+      "cityStatePlaceholder": "Austin, TX",
+      "fireMeetingSpot": "Fire Meeting Spot",
+      "fireMeetingSpotHint": "Where your family meets outside if there's a fire",
+      "fireMeetingSpotPlaceholder": "Big oak tree in front yard",
+      "otherInfo": "Other Important Info",
+      "otherInfoHint": "Allergies, medical conditions, or second parent contact",
+      "otherInfoPlaceholder": "e.g. Dad's cell: 555-0100, peanut allergy",
+      "privacyNote": "🔒 Stored only on this device. Never shared or uploaded."
+    },
+
+    "profile": {
+      "title": "Child Profile",
+      "childName": "Child's Name",
+      "childNamePlaceholder": "e.g. Emma",
+      "nameRequired": "Please enter the child's name",
+      "age": "Age",
+      "chooseAvatar": "Choose Avatar",
+      "save": "Save Profile",
+      "noProfile": "No profile set up yet",
+      "activeChild": "Active child"
+    },
+
+    "progressReport": {
+      "title": "Progress Report",
+      "noProgress": "No practice sessions yet",
+      "noProgressSub": "Start practicing to see progress here",
+      "mastery": "Mastery",
+      "sessions": "Sessions",
+      "streak": "Streak",
+      "lastPracticed": "Last practiced",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "daysAgo": "{{count}} days ago",
+      "never": "Not yet practiced",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+
+    "emergency": {
+      "title": "Emergency Settings",
+      "enabled": "Emergency Module",
+      "drillFrequency": "Drill Frequency",
+      "quizFrequency": "Mini-Quiz Frequency",
+      "meetingSpot": "Fire Meeting Spot",
+      "recordVoice": "Record Dispatcher Voice",
+      "progress": "Emergency Progress"
+    }
+  },
+
+  "numbers": {
+    "0": "zero",
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five",
+    "6": "six",
+    "7": "seven",
+    "8": "eight",
+    "9": "nine"
+  },
+
+  "practiceMode": {
+    "selectScreen": {
+      "title": "Practice Calling",
+      "loading": "Loading...",
+      "emptyTitle": "No Contacts Yet",
+      "emptyMessage": "Ask a parent to add contacts in the Parent Zone!",
+      "instructionTitle": "Who do you want to call?",
+      "instructionSubtitle": "Tap a person to practice their number!",
+      "emergencyBadge": "EMERGENCY",
+      "streak": "streak",
+      "practiceButton": "Practice Calling {{name}} →",
+      "mastery": {
+        "excellent": "Great job!",
+        "good": "Keep practicing!",
+        "started": "Just started",
+        "notPracticed": "Not practiced yet"
+      },
+      "difficulty": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      }
+    },
+    "practiceScreen": {
+      "loading": "Loading...",
+      "chunkCelebration": {
+        "message1": "Great job! 🌟",
+        "message2": "You did it! ⭐",
+        "message3": "Awesome! 🎯",
+        "message4": "Perfect! 💫",
+        "message5": "Way to go! 🏆",
+        "message6": "Super! 🌈"
+      },
+      "finalCelebration": {
+        "message1": "You're amazing! 🎉",
+        "message2": "You did it all! 🥳",
+        "message3": "Super dialer! 🌟",
+        "message4": "Champion! 🏆"
+      },
+      "transition": {
+        "message1": "Now dial the whole number! 📞",
+        "message2": "One more time - all together! 🎯",
+        "message3": "You learned it! Now show me! 💪",
+        "message4": "Final round - full number! 🏆"
+      },
+      "header": {
+        "callName": "Call {{name}}"
+      },
+      "phaseBadge": {
+        "finalRound": "🎯 Final Round",
+        "easy": "⭐ Easy",
+        "medium": "⭐⭐ Medium",
+        "hard": "⭐⭐⭐ Hard"
+      },
+      "instructions": {
+        "finalRound": "🎯 Final Round - Dial the whole number!",
+        "memory": "Dial from memory!",
+        "chunk": "Chunk {{current}} of {{total}}"
+      },
+      "dialedDisplay": {
+        "fullNumberPrompt": "Dial the complete number!",
+        "chunkPrompt": "Tap the highlighted number to start!"
+      },
+      "celebration": {
+        "chunkProgress": "{{current}} of {{total}} done!",
+        "youDialed": "You dialed {{name}}'s number!",
+        "starsEarned": "Stars earned:",
+        "totalStars": "{{earned}} / {{max}} stars!",
+        "mastery": "Mastery: {{level}}%",
+        "streakMessage": "🔥 {{count}} in a row!",
+        "chunksLearned": "All chunks learned!",
+        "getReady": "Get ready..."
+      },
+      "ringing": {
+        "calling": "Calling...",
+        "ringing": "Ring ring! 📞",
+        "answerMessage": "Hi! Great job dialing my number! You did it!"
+      }
+    }
+  }
+}
