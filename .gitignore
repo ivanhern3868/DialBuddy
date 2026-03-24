@@ -43,3 +43,6 @@ yarn-error.*
 
 # Local reference files
 soundinfo.xlsx
+
+# Claude Code local settings (machine-specific, not for repo)
+.claude/settings.local.json
