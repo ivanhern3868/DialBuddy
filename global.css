@@ -1,0 +1,11 @@
+/**
+ * Global CSS for DialBuddy
+ *
+ * Business Purpose:
+ * Imports Tailwind CSS utilities for use throughout the app via NativeWind.
+ * Enables className-based styling on React Native components.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
