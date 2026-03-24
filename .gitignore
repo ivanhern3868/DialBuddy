@@ -53,3 +53,11 @@ MARKET_ANALYSIS.md
 ROADMAP.md
 DEVELOPMENT.md
 FONTS_SETUP.md
+
+# Local/temp files
+~$*.xlsx
+*.zip
+dump_project.sh
+nul
+scorecard.png
+.claude/skills/
