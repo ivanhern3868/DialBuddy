@@ -1,0 +1,11 @@
+[build]
+  command = "expo export -p web"
+  publish = "dist"
+
+# SPA fallback: serve index.html for all routes so expo-router
+# handles navigation client-side (prevents 404 on direct URL access
+# or page refresh for routes like /onboarding, /practice, etc.)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
